@@ -12,6 +12,7 @@ jobs:
   build:
     name: Elixir Release
     runs-on: ubuntu-latest
+    environment: Release
 
     env:
         MIX_ENV: prod

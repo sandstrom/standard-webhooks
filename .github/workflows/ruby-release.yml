@@ -12,6 +12,7 @@ jobs:
   build:
     name: Ruby Release
     runs-on: ubuntu-latest
+    environment: Release
 
     steps:
       - uses: actions/checkout@v4
