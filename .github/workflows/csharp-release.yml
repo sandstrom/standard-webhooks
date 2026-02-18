@@ -5,6 +5,9 @@ on:
     tags:
       - "v*"
 
+permissions:
+  id-token: write
+
 jobs:
   dotnet:
     name: C# Release
