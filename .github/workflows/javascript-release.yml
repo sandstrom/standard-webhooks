@@ -29,7 +29,5 @@ jobs:
 
       - name: Publish
         run: |
-          yarn publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          npm publish --provenance
         working-directory: libraries/javascript
